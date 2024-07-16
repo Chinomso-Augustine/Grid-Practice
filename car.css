@@ -1,0 +1,58 @@
+body{
+    background-color:wheat;
+
+}
+.car-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    column-gap: 20px;
+}
+.Cars{
+    box-shadow: 0 0 20px rgb(205, 27, 205);
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  
+}
+.Car-Picture{
+    width: 100%;
+    height: 60%;
+    
+}
+
+.Car-Name,.Cost{
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-family: Arial;
+    margin-left: 8px;
+
+}
+
+.Car-Name{
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.Cost{
+   font-size: 20px;
+}
+
+.Info{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    background-color: rgb(164, 80, 164);
+    color: white;
+    font-size:16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: Arial;
+    margin-left: 8px;
+}
